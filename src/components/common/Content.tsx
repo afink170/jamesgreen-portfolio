@@ -1,6 +1,7 @@
 import React from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
 import ScrollBar from 'react-scrollbars-custom';
+import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 
 interface ContentProps {
   children: React.ReactNode;
@@ -36,10 +37,14 @@ const View = ({ style, ...props }: RenderProps) => (
 );
 
 const Content = ({ children, style }: ContentProps) => (
+  <div style={{ overflowY: 'auto', ...style }}>{children}</div>
   // <ScrollBar style={style}>{children}</ScrollBar>
-  <Scrollbars renderThumbVertical={Thumb} renderView={View} style={style}>
-    {children}
-  </Scrollbars>
+  // <Scrollbars renderThumbVertical={Thumb} renderView={View} style={style}>
+  //   {children}
+  // </Scrollbars>
+  // <OverlayScrollbarsComponent style={style}>
+  //   {children}
+  // </OverlayScrollbarsComponent>
 );
 
 export default Content;

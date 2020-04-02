@@ -20,6 +20,8 @@
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-sharp": "^2.4.3",
     "intersection-observer": "^0.7.0",
+    "overlayscrollbars": "^1.11.0",
+    "overlayscrollbars-react": "^0.2.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-custom-scrollbars": "^4.2.1",
@@ -29,6 +31,7 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "@types/overlayscrollbars": "^1.9.0",
     "@types/react": "^16.9.25",
     "@types/react-custom-scrollbars": "^4.0.6",
     "@types/react-helmet": "^5.0.15",

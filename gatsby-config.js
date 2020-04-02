@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
     title: `James Green`,
@@ -32,7 +33,7 @@ module.exports = {
         background_color: `#1b1b1b`,
         theme_color: `#ffe600`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -50,7 +51,6 @@ module.exports = {
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 };

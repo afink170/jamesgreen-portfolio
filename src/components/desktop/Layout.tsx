@@ -1,7 +1,8 @@
 import React from 'react';
 
-import SEO from '../seo';
-import './layout.css';
+import SEO from '../common/SEO';
+import './Layout.css';
+import 'overlayscrollbars/css/OverlayScrollbars.css';
 
 interface LayoutProps {
   pageTitle: string;

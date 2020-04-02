@@ -66,7 +66,6 @@ const BioPage = () => (
                   title="BIO"
                   width={650}
                   style={{ gridArea: 'content' }}
-                  // headerOverhang={50}
                 >
                   {contentArray.map((c: string, i: number) => (
                     <p key={i} style={{ fontSize: '28px' }}>
