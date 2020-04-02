@@ -1,25 +1,46 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "jamesgreen-portfolio",
+  "private": false,
+  "description": "A portfolio webiste for James Green.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrew Fink <afink170@yahoo.com>",
   "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.45",
+    "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.2.44",
-    "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-manifest": "^2.3.2",
     "gatsby-plugin-offline": "^3.0.41",
     "gatsby-plugin-react-helmet": "^3.1.24",
-    "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-plugin-typescript": "^2.3.1",
     "gatsby-source-filesystem": "^2.1.56",
-    "gatsby-transformer-sharp": "^2.3.19",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "intersection-observer": "^0.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-scrollbars-custom": "^4.0.21",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@types/react": "^16.9.25",
+    "@types/react-custom-scrollbars": "^4.0.6",
+    "@types/react-helmet": "^5.0.15",
+    "@types/styled-components": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "typescript": "^3.8.3"
   },
   "keywords": [
     "gatsby"
@@ -32,6 +53,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "type-check": "tsc --noEmit",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
