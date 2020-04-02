@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a1c0659-278b-49d9-80f5-fe3501ef90d0/deploy-status)](https://app.netlify.com/sites/jamesgreenmusic/deploys)
+
 # James Green Portfolio
 
 This repository contains the code for the portfolio website for James Green, a musician, conductor, and educator living in Hattiesburg, Mississippi.
